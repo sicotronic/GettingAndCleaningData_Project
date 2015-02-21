@@ -5,14 +5,14 @@ date: "Tuesday, February 17, 2015"
 output: html_document
 ---
 
-### *Introduction:*
+### Introduction:
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
   
-#### *Download Link:*  
+#### Download Link:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 
-### *Data Transformation for this Project *
+### Data Transformation for this Project
 
 This section of the Code Book describes the variables, the data, and any transformations or work that I performed to clean up the data called CodeBook.md.  I lodaded the files into their respective variables: *x_train_data*, *x_test_data*, *y_train_data*, *y_test_data*, *subject_train_data*, *subject_test_data*.
 

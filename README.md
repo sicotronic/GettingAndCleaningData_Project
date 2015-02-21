@@ -45,7 +45,7 @@ You should create one R script called run_analysis.R that does the following:
  
  - CodeBook.md: CodeBook file decribing the data, its variables and all the performed transformations
  
- - run_analysis.R: R script file containing the code with the steps described above to generate the data_averages.txt dataset
+ - run_analysis.R: R script file containing the code with the steps described above to generate the data_averages.txt dataset. Load the script in order to run it. **Note: This script assumes that the data has been extracted in the same directory under the default folder name "UCI HAR Dataset/"" (The download link can be found in the CodeBook.md file)**
  
  - data_averages.txt: the tidy data obtained from the original dataset as required for this project.
  
