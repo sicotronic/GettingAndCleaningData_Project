@@ -32,6 +32,8 @@ data <- cbind(x_data, y_data, subject_data)
 
 # Create a second, independent tidy data set with the average of each variable
 # for each activity and each subject and Write into a file
-data_averages <- ddply(data, .(subject, activity), function(x) colMeans(x[, 1:66]))
+
+last_column <- ncol(data) - 2 # The last two columns cannot be averages (activity, subject)
+data_averages <- ddply(data, .(subject, activity), function(x) colMeans(x[, seq(1,last_column)]))
 write.table(data_averages, "data_averages.txt", row.name=FALSE)
 
